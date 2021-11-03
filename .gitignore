@@ -102,3 +102,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+.idea/
+
+MyApp/node_modules
+MyApp/platforms
+MyApp/plugins
