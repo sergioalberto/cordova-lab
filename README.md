@@ -25,6 +25,12 @@ cordova platform add ios
 cordova platform add android
 ```
 
+## Add plugins
+```shell
+cordova plugin add cordova-plugin-firebasex
+# cordova plugin add cordova-plugin-fcm
+```
+
 ## Install pre-requisites for building
 ```shell
 cordova requirements
@@ -67,3 +73,6 @@ cordova run android
 ### Sources
 - https://cordova.apache.org/docs/en/10.x/guide/cli/index.html 
 - https://lifesaver.codes/answer/no-installed-build-tools-found-install-the-android-build-tools-version-19-1-0-or-higher
+- https://medium.com/@carlospcpro/how-to-add-push-notifications-to-your-cordova-app-in-ios-and-android-using-firebase-done-right-4f6c64dc50f0
+- https://console.firebase.google.com
+- https://github.com/fechanique/cordova-plugin-fcm

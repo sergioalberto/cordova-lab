@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "431430876534",
+    "project_id": "mensistest-4800b",
+    "storage_bucket": "mensistest-4800b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431430876534:android:9c725ee93c135b3e4f4e57",
+        "android_client_info": {
+          "package_name": "io.cordova.hellocordova"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "431430876534-5ng0ahk09j61d2sgmit5j1ussqg0buhe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRP_Af_SKB531bLbXxSTZhk8RMM7_pKuA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "431430876534-5ng0ahk09j61d2sgmit5j1ussqg0buhe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

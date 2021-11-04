@@ -29,12 +29,13 @@
             * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
                 * Enable inline JS: add 'unsafe-inline' to default-src
         -->
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
         <meta name="color-scheme" content="light dark">
         <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/theme.css">
         <title>Hello World</title>
     </head>
     <body>
@@ -44,6 +45,11 @@
                 <p class="event listening">Connecting to Device</p>
                 <p class="event received">Device is Ready</p>
             </div>
+            </br>
+            </br>
+            <h1 class="h2" style="font-family: 'Montserrat'; color: #EC5C24">Bienvenido</h1>
+            </br>
+            <button onclick="clickMe();" id="btnLogin" name="btnLogin" class="btn btn-primary transition-3d-hover" style="font-family: 'Montserrat'; background-color: #ffffff">Click me</button>
         </div>
         <script src="cordova.js"></script>
         <script src="js/index.js"></script>
